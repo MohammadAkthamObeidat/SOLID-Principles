@@ -101,6 +101,14 @@ public class Notes {
      *      one single class and this affect should be very simple to implement
      */
 
+    /**
+     *                                                              ## The cost of Abstraction ##
+     *
+     * 1- You need to write additional code.
+     * 2- Abstraction make your code more complex.
+     * 3- Wrong abstraction can be extremely hard to fix later.
+     */
+
 
 
 }
