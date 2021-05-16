@@ -107,6 +107,38 @@ public class Notes {
      * 1- You need to write additional code.
      * 2- Abstraction make your code more complex.
      * 3- Wrong abstraction can be extremely hard to fix later.
+     *
+     *
+     * # So use abstraction only when you really need them, therefore, you don't apply open-closed principle blindly and dogmatically
+     */
+
+    /**
+     *                                                         ## Open close principle application framework ##
+     *
+     * 1- Is the anticipated change related to the intrinsic instability of business? If yes then we'll go with abstraction to implement OCP, if no we'll
+     *      go to the next step.
+     * 2- What kind of changes usually happen on projects like this one?
+     * 3- If the potential change doesn't correspond to 1 or 2 above, don't apply OCP in the current time.
+     * 4- When requirements change, identify opportunities for extraction of meaningful abstractions and then refactor accordingly.
+     */
+
+    // The risk of over-engineering is ever-present!
+
+
+    /**                                                                         ### SUMMARY ###
+     *
+     * # OCP protect your existing code from a subset of potential future changes that you can predict
+     *
+     *  Application ====> ABSTRACTION <========= anticipated changes
+     *  so you have got your application & you have got some anticipated changes, to make sure that these changes don't affect the application you'll
+     *      use an abstraction between application and the changes
+     *
+     *
+     *                                                                      ### OCP limitations ###
+     * 1- Not applicable to all classes in your application.
+     * 2- Can't protect from all possible changes.
+     * 3- Wrong abstractions can be very hard to fix.
+     *
      */
 
 
