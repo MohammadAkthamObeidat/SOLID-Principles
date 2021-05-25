@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Dependency Inversion/Dependency Inversion.iml" filepath="$PROJECT_DIR$/Dependency Inversion/Dependency Inversion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Interface Segregation/Interface Segregation.iml" filepath="$PROJECT_DIR$/Interface Segregation/Interface Segregation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Liskov Substitution/Liskov Substitution.iml" filepath="$PROJECT_DIR$/Liskov Substitution/Liskov Substitution.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OpenedClose/OpenedClose.iml" filepath="$PROJECT_DIR$/OpenedClose/OpenedClose.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SingleResponsibility/SingleResponsibility.iml" filepath="$PROJECT_DIR$/SingleResponsibility/SingleResponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-SingleResponsibility/1-SingleResponsibility.iml" filepath="$PROJECT_DIR$/1-SingleResponsibility/1-SingleResponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-OpenedClose/2-OpenedClose.iml" filepath="$PROJECT_DIR$/2-OpenedClose/2-OpenedClose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-Liskov Substitution/3-Liskov Substitution.iml" filepath="$PROJECT_DIR$/3-Liskov Substitution/3-Liskov Substitution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-Interface Segregation/4-Interface Segregation.iml" filepath="$PROJECT_DIR$/4-Interface Segregation/4-Interface Segregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-Dependency Inversion/5-Dependency Inversion.iml" filepath="$PROJECT_DIR$/5-Dependency Inversion/5-Dependency Inversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Workspace_SOLID Principles.iml" filepath="$PROJECT_DIR$/.idea/Workspace_SOLID Principles.iml" />
     </modules>
   </component>
