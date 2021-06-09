@@ -5,7 +5,7 @@ public class Notes {
      * Definition: If "S" is a subtype of "T", then an objects of type "T" should be replaceable with objects of type "S" without altering
      *      any of the desirable properties of the program (correctness, task performed, etc.)
      *
-     * ?? Are there specific criteria for replaceability of supertypes by subtypes?
+     * ?? Are there specific criteria for replace ability of supertypes by subtypes?
      *
      * ?? Is there a framework we can use to identify LSP violations ahead of time?
      *
@@ -65,7 +65,7 @@ public class Notes {
      *          - An assertion about a specific class property which is always true.
      *          - Invariant guaranteed by a subclass must include all invariants guaranteed by a superclass.
      *
-     *          * Invariant is independent of the history, basically invariants are always true, therefore whenever look at some class its its invariants always hold.
+     *          * Invariant is independent of the history, basically invariants are always true, therefore whenever look at some class its invariants always hold.
      *          * Relatively easy to identify and reason about invariants, because, well, they always hold, they never change.
      *          * However in variants we can't express dynamic properties of class, because once again invariants never change, and constraints rule come in play to
      *              actually compensate for this one last property, basically that invariants can't express dynamic properties
@@ -74,8 +74,8 @@ public class Notes {
      *          - An assertion about how class property evolves over time.
      *          - Constraints enforced by a subclass must include all constraints enforced by a superclass.
      *
-     *      # The above two rules serve this idea: when you have a client that uses some class and you provide some subclass instead of that class that the client
-     *          expects to use
+     *      # The above two rules serve this idea: when you have a client that uses some classes and you provide some subclass instead of the classes that
+     *          the client expects to use
      */
 
 

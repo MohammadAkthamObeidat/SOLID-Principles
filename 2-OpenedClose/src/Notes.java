@@ -14,7 +14,7 @@ public class Notes {
      *
      *
      *
-     * ?? What does mean Close Fro Modification ??
+     * ?? What does mean Close For Modification ??
      * - Well, it's can only mean that no modification of class source code is allowed.
      * ? But how can I refactor my code if I can't change modify the class ?
      * ? How can fix bugs also without changing the source code of my classes ?
@@ -34,7 +34,7 @@ public class Notes {
      *      operations or add fields to its data structures.
      * # STILL AVAILABLE FOR EXTENSION means as long as you can extend your class through Inheritance, you're all right, your module is open
      *
-     *                                                             ### Original Definition of "OPEN" ###
+     *                                                             ### Original Definition of "CLOSE" ###
      * # A module [ class ] is said to be closed if it's AVAILABLE FOR USE BY OTHER MODULES. This assumes that the module has been given
      *      a WELL-DEFINED, STABLE DESCRIPTION (its INTERFACE in the sense of information hiding). At the implementation level, closure
      *      for a module also implies that YOU MAY COMPILE IT, perhaps STORE IT IN A LIBRARY, and make it available for others (its clients)
